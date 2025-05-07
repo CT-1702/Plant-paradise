@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -96,6 +97,13 @@ header {
         transition: 0.25s;
     }
 }
+.title-categoryr {
+    background-color: #FFFFFF;
+    h2 {
+        padding: 9px;
+        margin: 0;
+    }
+}
 
 #banner {
     background-image: url(/images/banner.png);
@@ -168,12 +176,6 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 25px;
-        padding-bottom: 10px;
-    }
 }
 
 .category-img1 {
@@ -183,12 +185,6 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 27px;
-        padding-bottom: 10px;
-    }
 }
 
 .category-img2 {
@@ -198,12 +194,6 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 13px;
-        padding-bottom: 10px;
-    }
 }
 
 .category-img3 {
@@ -213,12 +203,6 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 36px;
-        padding-bottom: 10px;
-    }
 }
 
 .category-img4 {
@@ -228,12 +212,14 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 37px;
-        padding-bottom: 10px;
-    }
+}
+.category-item {
+    height: 180px;
+    font-size: 20px;
+    color: #1D4863;
+    font-weight: 500;
+    display: flex;
+    align-items: end;
 }
 
 .category-img5 {
@@ -243,12 +229,6 @@ header {
     font-size: 20px;
     color: #1D4863;
     font-weight: 500;
-
-    h2 {
-        padding-top: 113px;
-        padding-left: 45px;
-        padding-bottom: 10px;
-    }
 }
 
 #popular-products {
